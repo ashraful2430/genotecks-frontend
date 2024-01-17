@@ -1,8 +1,10 @@
+import Navbar from "../Navbar/Navbar";
+
 const MainLayout = () => {
   return (
-    <div>
-      <p className="text-center text-4xl">This is main layout</p>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
